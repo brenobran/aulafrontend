@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  background-color: red;
+  height: 56px;
+}
+
+body {
+  flex-direction: columm;
+}

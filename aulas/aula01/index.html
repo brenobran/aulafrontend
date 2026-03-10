@@ -1,24 +1,32 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="src/style.css">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>aula01</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="src/style.css">
+    <title>Aluno Online</title>
+</head>
+<body>
+
     <main>
-      <img src="public/school-svgrepo-com.svg" alt="Logotipo" width="150">
-      <h1>Aluno online</h1>
-      <label for="Matricula">Matricula</label>
-      <input type="number" id="Matricula" name="matricula">
-      <br>
-      <label for="Senha">Senha</label>
-      <input type="password" id="Senha" name="Senha">
-      <br>
-      <button type="submit">Entrar</button>
+        <img src="public/school-svgrepo-com.svg" alt="Logotipo">
+        <h1>Aluno online</h1>
+
+        <label for="Matricula">Matrícula</label>
+        <span class="icon-mat"><ion-icon name="mail"></ion-icon></span>
+        <input type="text" id="Matricula" name="matricula" placeholder="Digite sua matrícula">
+
+        <label for="Senha">Senha</label>
+        <span class="icon-sen"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password" id="Senha" name="Senha" placeholder="Digite sua senha">
+
+        <label class="check-label">
+            <input type="checkbox"> Lembrar da minha conta
+        </label>
+
+        <button type="submit">Entrar</button>
     </main>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
 </html>

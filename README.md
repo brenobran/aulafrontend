@@ -56,7 +56,7 @@ Para cada nova atividade, siga o fluxo abaixo:
 4. **Envie para o GitHub**: Salve suas alterações e envie para o seu repositório.
 5. **Solicite a revisão**: Acesse o seu repositório no GitHub e crie um `Pull Request` direcionando para a sua branch `develop`. 
 
-> ⚠️ **Atenção!**<br>
+> ⚠️ **Atenção!**<br>xo
 > Se o check ✅ não aparecer no `Pull Request`, há erros de compilação ou sintaxe que precisam ser corrigidos.
 
 ### 3. Feedback e Avaliação
