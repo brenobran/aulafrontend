@@ -1,6 +1,6 @@
 services:
   app:
-    image: node:24
+    image: node:22
     container_name: aluno-online-vanilla
     working_dir: /app
     volumes:
