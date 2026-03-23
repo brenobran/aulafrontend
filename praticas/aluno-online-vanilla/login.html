@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/login.css">
+    <title>Aluno Online</title>
+</head>
+<body>
+
+    <main>
+        <img src="public/learn.svg" alt="Logotipo">
+        <h1>Aluno online</h1>
+
+    <form id="loginForm">
+        <label for="Matricula">Matrícula</label>
+        <span class="icon-mat"><ion-icon name="mail"></ion-icon></span>
+        <input type="text" id="Matricula" name="matricula" placeholder="Digite sua matrícula">
+        <p id="matriculaErro"></p>
+
+        <label for="Senha">Senha</label>
+        <span class="icon-sen"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password" id="Senha" name="senha" placeholder="Digite sua senha">
+        <p id="senhaErro"></p>
+
+        <label class="check-label">
+            <input type="checkbox"> Lembrar da minha conta
+        </label>
+
+        <button>Entrar</button>
+
+    </form>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
