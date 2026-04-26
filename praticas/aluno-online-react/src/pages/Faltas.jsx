@@ -1,6 +1,6 @@
-import Sidebar from "../componets/Sidebar";
+import Sidebar from "../components/Sidebar";
 import avatar from "../assets/avatar.svg";
-import Topbar from "../componets/Topbar";
+import Topbar from "../components/Topbar";
 
 function Faltas() {
   return (

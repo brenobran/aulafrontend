@@ -1,5 +1,5 @@
-import Main from "../componets/Main";
-import Sidebar from "../componets/Sidebar";
+import Main from "../components/Main";
+import Sidebar from "../components/Sidebar";
 
 function Dashboard() {
   return (
