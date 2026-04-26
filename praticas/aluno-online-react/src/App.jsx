@@ -1,3 +1,4 @@
+
 import Requerimentos from "./pages/Requerimentos";
 import Boletos from "./pages/Boletos";
 import Dashboard from "./pages/Dashboard";
@@ -9,7 +10,7 @@ import Notas from "./pages/Notas";
 function App(){
   return ( 
     <>
-    <Faltas />
+    <Requerimentos />
     </>
   )
 }
