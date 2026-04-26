@@ -1,20 +1,35 @@
-import Card from "./Card";
-import Topbar from "./Topbar";
-
-function Main() {
+function Menu({ navegaPara }) {
   return (
     <>
-      <main className="flex-1 mx-auto pr-6 pl-6">
-        <Topbar />
+      <nav className="max-h-screen bg-gray-300 border-r border-gray-200 p-8">
+        <ul>
+          <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer font-medium">
+            <a href="#" onClick={() => navegaPara(1)}>Dashboard</a>
+          </li>
 
-        <h2 className="text-lg font-semibold px-4 md:px-10 p-8">
-          Bem - vindo ao Portal do Aluno
-        </h2>
+          <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+            <a href="#" onClick={() => navegaPara(2)}>Notas</a>
+          </li>
 
-        <Card />
-      </main>
+          <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+            <a href="#" onClick={() => navegaPara(3)}>Faltas</a>
+          </li>
+
+          <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+            <a href="#" onClick={() => navegaPara(4)}>Boletos</a>
+          </li>
+
+          <li className="px-3 py-2 rounded-lg hover:bg-gray-100 cursor-pointer">
+            <a href="#" onClick={() => navegaPara(5)}>Requerimentos</a>
+          </li>
+
+          <li className="px-3 py-2 rounded-lg hover:bg-red-100 text-red-600 cursor-pointer mt-6">
+            <a href="#" onClick={() => navegaPara(0)}>Sair</a>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }
 
-export default Main;
+export default Menu;
