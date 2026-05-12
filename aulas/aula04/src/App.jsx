@@ -1,3 +1,4 @@
+import { useAuth } from "./contexts/AuthContext";
 import { Routes, Route } from 'react-router';
 import About from './pages/About';
 import Perfil from './pages/Perfil';
@@ -8,8 +9,11 @@ import Layout from './layout/Layout';
 import Login from './pages/Login';
 
 function App() {
+  const {logado} = useAuth();
+
   return (
     <Routes>
+    {logado ? (  
     <Route element={<Layout />}> {/*TEMPLETE*/}
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
@@ -17,8 +21,12 @@ function App() {
       <Route path='/settings' element={<Settings />} />
       <Route path='*' element={<Erro404 />} />
     </Route>
+    ) : (
     <Route path='/login' element={<Login />}/>
+    )}
+    <Route path='*' element={<Erro404 />} />
     </Routes>
+
   );
 }
 
