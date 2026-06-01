@@ -1,0 +1,11 @@
+{
+  "produtos": [
+    {
+      "nome": "banana nanica",
+      "preco": 9.99,
+      "unidade": "kg",
+      "id": "ZqFw0DFXuKc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Erro404 from './pages/Erro404';
 import Layout from './layout/Layout';
 import Login from './pages/Login';
+import Requerimentos from './forms/RequerimentoForm';
 
 function App() {
   const {logado} = useAuth();
