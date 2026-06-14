@@ -1,10 +1,58 @@
 {
   "produtos": [
     {
-      "nome": "banana nanica",
-      "preco": 9.99,
-      "unidade": "kg",
-      "id": "ZqFw0DFXuKc"
+      "id": "gyW84quMzyU",
+      "nome": "Fita",
+      "preco": "6",
+      "unidade": "Kg"
+    },
+    {
+      "nome": "Laranja",
+      "preco": "5,49",
+      "unidade": "Kg",
+      "id": "gAokT9ecWP0"
+    },
+    {
+      "nome": "Tomate",
+      "preco": "5,45 ",
+      "unidade": "",
+      "id": "9VPSmYH7w3Q"
+    },
+    {
+      "nome": "1234",
+      "preco": "6",
+      "unidade": "Bandeja",
+      "id": "MoblB5go-P4"
+    },
+    {
+      "requerimento": "abono",
+      "dataRequerimento": "2026-06-08",
+      "descricao": "asdfghjklç~wertyuiop´",
+      "id": "wls5thknvhU"
+    }
+  ],
+  "requerimentos": [
+    {
+      "tipo": "Dispensa de Disciplina",
+      "dataSolicitacao": "2026-06-08",
+      "situacao": "Em análise",
+      "descricao": "qwertyuiopasdfghjklzxcvbnm,",
+      "id": "6V8QnZYWBPc"
+    },
+    {
+      "tipo": "Dispensa de Disciplina",
+      "dataSolicitacao": "2026-06-08",
+      "situacao": "Em análise",
+      "descricao": "qwertyuiopasdfghjkl",
+      "id": "yOODa0ha1zI"
+    }
+  ],
+
+  "usuarios": [
+    { 
+      "id": 1,
+      "email": "breno@gmail.com",
+      "senha": 213213
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
