@@ -11,7 +11,7 @@ function Sidebar() {
         </header>
 
         <div className="flex-1 overflow-y-auto">
-          <Menu />
+          <Menu/>
         </div>
       </aside>
     </>
