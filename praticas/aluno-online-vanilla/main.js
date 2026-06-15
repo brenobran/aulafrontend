@@ -26,6 +26,7 @@ senha.addEventListener('input', function(){
         senhaErro.textContent = 'Senha Inválida! Seguir a regra dos Caracteres da Senha';
     } else {
         senhaErro.textContent = '';
+        console.log("Vê se foi");
     }
 
 
