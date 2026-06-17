@@ -1,18 +1,12 @@
-function InputSenha({ senha, erro, mudaValor }) {
+function InputSubmit({ texto }) {
   return (
-    <>
-      <label htmlFor="senha" className="mt-5 font-semibold">Senha</label>
-      <input
-        placeholder="Digite sua Senha"
-        className="border border-solid border-gray-900 border-2 p-2 rounded-lg"
-        type="password"
-        id="senha"
-        name="senha"
-        value={senha}
-        onChange={mudaValor}
-      />
-      <p className="text-red-700">{erro}</p>
-    </>
+    <button
+      type="submit"
+      className="bg-gray-500 rounded-lg mt-6 p-3 bg-gray-900 text-white hover:bg-gray-300 duration-500 hover:text-black px-3 font-semibold"
+    >
+      {texto}
+    </button>
   );
 }
-export default InputSenha;
+
+export default InputSubmit;
